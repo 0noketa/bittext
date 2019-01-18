@@ -80,17 +80,17 @@ static char *src = "Hello world. this is taro.";
 	bittext_page_str(&page, buf);
 	puts(buf);
 
-	wrd = bittext_word_new("is  ");
+	wrd = bittext_word_create("is  ");
 	dump_word(wrd);
 	plane = bittext_page_find(&page, wrd);
 	dump_plane(plane);
 
-	wrd = bittext_word_new("L");
+	wrd = bittext_word_create("L");
 	dump_word(wrd);
 	plane = bittext_page_find(&page, wrd);
 	dump_plane(plane);
 
-	wrd = bittext_word_new("ABCDE");
+	wrd = bittext_word_create("ABCDE");
 	dump_word(wrd);
 	plane = bittext_page_find(&page, wrd);
 	dump_plane(plane);

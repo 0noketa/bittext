@@ -1,7 +1,7 @@
 /*
 * bitboard for case-insencitive texts
 *
-* 2018-03-10
+* 2018-10-05
 */
 /*
 * types
@@ -67,7 +67,7 @@ bittext_plane_t bittext_plane_lastindex(bittext_plane_t plane);
 bittext_plane_t bittext_plane_new(char *s, char c);
 
 int bittext_word_s_code(char c);
-bittext_word_t bittext_word_new(char *s);
+bittext_word_t bittext_word_create(char *s);
 int bittext_word_code(bittext_word_t wrd, int idx);
 int bittext_word_char(bittext_word_t wrd, int idx);
 

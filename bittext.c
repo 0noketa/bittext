@@ -52,7 +52,7 @@ int bittext_word_s_char(int code)
 		: ' ';
 }
 
-bittext_word_t bittext_word_new(char *s)
+bittext_word_t bittext_word_create(char *s)
 {
 	bittext_word_t r = 0;
 	int i;
